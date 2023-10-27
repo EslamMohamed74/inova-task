@@ -1,0 +1,16 @@
+.bottomNav {
+  background-color: rgb(30, 30, 30);
+  .navlinks {
+    gap: 40px;
+
+    a,
+    a:hover {
+      color: #fff;
+
+      &.active {
+        color: #55e748 !important;
+        font-weight: bold;
+      }
+    }
+  }
+}
